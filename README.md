@@ -9,7 +9,6 @@ HttpClient component for GooBiq Lightweight PHP Framework.
 ## Further Documentation and Framework Information
 
 * [GooBiqFramework.com](http://www.goobiqframework.com)
-* [Documentation hosted by ReadTheDocs](http://goobiq.readthedocs.org/en/latest/features/registry/)
 * [The main Goobiq Github repository](https://github.com/jasonlam604/GooBiq) 
 
 ## Support
@@ -30,4 +29,4 @@ GooBiq is maintained under [the Semantic Versioning guidelines](http://semver.or
 
 ## Copyright and license
 
-Code released under [the MIT license](https://github.com/jasonlam604/GooBiq-Registry/blob/master/LICENSE). 
+Code released under [the MIT license](https://github.com/jasonlam604/GooBiq-HttpClient/blob/master/LICENSE). 
