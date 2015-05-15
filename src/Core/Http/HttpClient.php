@@ -1,8 +1,7 @@
 <?php
 namespace GooBiq\Core\Http;
 
-use GooBiq\Core\Exception\ExceptionCode;
-use GooBiq\Core\Exception\GooBiqCoreException;
+use GooBiq\Core\Http\GooBiqHttpException;
 
 /**
  * HttpClient
@@ -38,6 +37,8 @@ use GooBiq\Core\Exception\GooBiqCoreException;
  */
 class HttpClient
 {
+    
+    const HTTP_REQUEST_MISSING_REQUEST_OBJECT = 101;
 
     private $request;
 
@@ -49,7 +50,7 @@ class HttpClient
     function execute()
     {
         if (empty($this->request))
-            throw new GooBiqCoreException('GooBiq\Core\Http\Request not set', ExceptionCode::HTTP_REQUEST_MISSING_REQUEST_OBJECT);
+            throw new GooBiqHttpException('GooBiq\Core\Http\Request not set', HttpClient::HTTP_REQUEST_MISSING_REQUEST_OBJECT);
         
         $this->header = '';
         

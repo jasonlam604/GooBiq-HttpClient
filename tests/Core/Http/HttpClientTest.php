@@ -1,6 +1,5 @@
 <?php
-use GooBiq\Core\Exception\ExceptionCode;
-use GooBiq\Core\Exception\GooBiqCoreException;
+use GooBiq\Core\Http\GooBiqHttpException;
 use GooBiq\Core\Http\HttpClient;
 use GooBiq\Core\Http\HttpMethod;
 use GooBiq\Core\Http\HttpRequest;
@@ -37,8 +36,8 @@ class HttpClientTest extends PHPUnit_Framework_TestCase
     */
     
     /**
-     * @expectedException     GooBiq\Core\Exception\GooBiqCoreException
-     * @expectedExceptionCode GooBiq\Core\Exception\ExceptionCode::HTTP_REQUEST_MISSING_REQUEST_OBJECT
+     * @expectedException     GooBiq\Core\Http\GooBiqHttpException
+     * @expectedExceptionCode GooBiq\Core\Http\HttpClient::HTTP_REQUEST_MISSING_REQUEST_OBJECT
      */
     public function testNoRequestSet() 
     {
