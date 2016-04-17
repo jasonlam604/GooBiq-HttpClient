@@ -1,31 +1,18 @@
-# [GooBiq-HttpClient Component for GooBiq Lightweight PHP Framework](http://www.goobiqframework.com)
+# GooBiq-HttpClient
 
 [![Build Status](https://travis-ci.org/jasonlam604/GooBiq-HttpClient.png)](https://travis-ci.org/jasonlam604/GooBiq-HttpClient)
 
 ## Description
 
-HttpClient component for GooBiq Lightweight PHP Framework.
+Basic HttpClient Library
 
-## Further Documentation and Framework Information
+## Documentation
 
-* [GooBiqFramework.com](http://www.goobiqframework.com)
-* [The main Goobiq Github repository](https://github.com/jasonlam604/GooBiq) 
-
-## Support
-
-Feel free to send me an email jasonlam604@gmail.com, I will try my best to get back to you as soon as possible.
-
-## Versioning
-
-GooBiq is maintained under [the Semantic Versioning guidelines](http://semver.org/).
+Coming Soon!
 
 ## Creator
 
-**Jason Lam**
-
-- <https://www.jasonlam604.com>
-- <https://github.com/jasonlam604>
-- <https://twitter.com/jasonlam604>
+[Jason Lam](https://www.jasonlam604.com)
 
 ## Copyright and license
 
